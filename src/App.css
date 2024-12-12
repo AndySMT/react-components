@@ -5,3 +5,21 @@
   margin-top: 50px;
   margin-bottom: 50px;
 }
+.footer {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 10px 100px;
+  justify-content: space-around;
+  text-align: left;
+}

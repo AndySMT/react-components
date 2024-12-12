@@ -1,11 +1,13 @@
 function Footer() {
   return (
-    <p className="text-center">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem fuga
-      maxime blanditiis, tempora fugiat deleniti voluptatem, alias est
-      distinctio perferendis, quos voluptates non optio modi ullam eius autem
-      laborum! Exercitationem.
-    </p>
+    <div className="footer">
+      <ul>
+        <li>La vittoria arriva per chi la cerca con audacia. - Darius</li>
+        <li>Il vento guida sempre chi sa ascoltarlo. - Yasuo</li>
+        <li>Lequilibrio non è mai statico. - Irelia</li>
+        <li>La pace è la più grande delle battaglie vinte. - Karma</li>
+      </ul>
+    </div>
   );
 }
 
